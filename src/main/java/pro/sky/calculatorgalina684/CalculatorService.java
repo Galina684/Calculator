@@ -3,6 +3,7 @@ package pro.sky.calculatorgalina684;
 public interface CalculatorService {
     String Welcome();
 
+
     int calculatePlus(int num1, int num2);
 
     int calculateMinus(int num1, int num2);

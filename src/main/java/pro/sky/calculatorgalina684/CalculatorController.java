@@ -31,6 +31,7 @@ public class CalculatorController {
         return calculatorServiceImpl.calculateMultiply(numOne, numTwo);
     }
 
+
     @GetMapping(path = "/calculator/divide")
     public int calculateDivide(@RequestParam("num1") int numOne, @RequestParam("num2") int numTwo) {
         return calculatorServiceImpl.calculateDivide(numOne, numTwo);
